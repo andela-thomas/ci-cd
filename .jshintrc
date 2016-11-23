@@ -1,0 +1,31 @@
+{
+  "bitwise": true,
+  "node": true,
+  "mocha": true,
+  "globals": {
+    "expect": true,
+    "angular": true,
+    "Materialize": true,
+    "inject": true
+  },
+  "indent": 2,
+  "camelcase": true,
+  "eqeqeq": true,
+  "curly": true,
+  "forin": true,
+  "immed": true,
+  "latedef": true,
+  "maxlen": 100,
+  "newcap": true,
+  "noarg": true,
+  "noempty": true,
+  "nonew": true,
+  "esversion": 6,
+  "node": true,
+  "quotmark": true,
+  "trailing": true,
+  "undef": true,
+  "expr": true,
+  "unused": true,
+  "eqnull": true
+}
