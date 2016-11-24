@@ -18,5 +18,7 @@ gulp.task('watch', function() {
 
 gulp.task('build', ['jade', 'less', 'browserify', 'bower']);
 // TODO
-// Add heroku build tasks
+gulp.task('heroku:production', ['build']);
+gulp.task('heroku:staging', ['build']);
+
 gulp.task('default', ['watch', 'build', 'serve']);
