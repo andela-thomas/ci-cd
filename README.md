@@ -1,5 +1,5 @@
 # Angular-app-testing
-SPA app with angular + testing
+SPA app with angular + testing +CI/CD
 
 # Installation
 1. To run this app you need to have node installed, then    install the following modules globally
@@ -15,7 +15,7 @@ SPA app with angular + testing
 
 2. Clone the project
 
-     `git clone https://github.com/Andela-thomas/Angular-app-testing.git`
+     `git clone https://github.com/Andela-thomas/ci-cd.git`
 
 3. Install project Dependecies
   ```
