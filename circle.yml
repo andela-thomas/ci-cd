@@ -1,0 +1,22 @@
+dependencies:
+ pre:
+  - npm install bower -g
+  - npm install gulp -g
+
+ post:
+  - npm install module-deps
+  - bower install
+
+machine:
+  node:
+    version: 7.0.0
+
+deployment:
+  production:
+    branch: master
+    heroku:
+      appname: jkuat-ci
+  staging:
+    branch: staging
+    heroku:
+      appname: jkuat-ci-staging
