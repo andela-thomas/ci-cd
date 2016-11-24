@@ -1,9 +1,12 @@
 dependencies:
  pre:
-  - bower install
+  - npm install bower -g
+  - npm install gulp -g
+
  post:
   - npm install module-deps
-  - npm install gulp -g
+  - bower install
+
 machine:
   node:
     version: 7.0.0
